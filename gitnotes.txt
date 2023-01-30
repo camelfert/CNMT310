@@ -4,3 +4,8 @@ cd (change dir)
 pwd (workin dir.)
 cd ~ (home)
 cd .. (back folder)
+
+git clone
+git commit -m "desc. goes here" 
+git push (-u origin master)
+git status

@@ -1,0 +1,6 @@
+git notes
+
+cd (change dir)
+pwd (workin dir.)
+cd ~ (home)
+cd .. (back folder)

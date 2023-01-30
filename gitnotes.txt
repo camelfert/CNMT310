@@ -1,9 +1,12 @@
 git notes
 
+sudo (ultimate control)
 cd (change dir)
 pwd (workin dir.)
 cd ~ (home)
 cd .. (back folder)
+mv ../(back one) .(curr direct) (move files)
+rm (delete file) -i (confirms each file), -f (danger, force removes w/o prompt)
 
 git clone
 git commit -m "desc. goes here" 

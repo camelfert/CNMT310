@@ -1,18 +1,20 @@
 <?php
-$user = $_POST['username'];
-$pass = $_POST['pass'];
 
-if(!isset($user) || !isset($pass) || empty($user) || empty($pass)) {
+if(isset($_POST['username']) && isset($_POST['pass']) && !empty($_POST['username']) && !empty($_POST['pass'])) {
+    $user = $_POST['username'];
+    $pass = $_POST['pass'];
+} 
+else {
     header("location: form-login.php");
     exit;
 }
 
-if (strcmp($user, "reguser") == 0 && !empty($pass)) {
+if ($user == 'reguser') {
     header("location: reguser.php");
     exit;
 } 
 
-if (strcmp($user, "superuser") == 0 && !empty($pass)) {
+if ($user == 'superuser') {
     header("location: su.php");
     exit;
 }
